@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d956017ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+        </div>
+        <div id="header">
+            <div class="container">
+                <section id="welcome-section">
+                    <div class="container">
+                        <div class="pic">
+                            <img src="images/karthik_1.jpg" alt="Profile-pic">
+                        </div>
+                        <div class="home-container">
+                            <h5>Hello, I am <span>KARTHIK</span></h5>
+                            <h1>B.Tech Student</h1>
+                            <nav class="social-media">
+                                <div class="nav-social">
+                                    <a href="https://github.com/Karthikceo" target="_blank">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="https://instagram.com/ka_rt_hii._22?igshid=MTN0MnF0NXB0MHUzNg=="
+                                        target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                                        target="_blank">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                    <a href="mailto:karthikvadladi09@gmail.com" target="_blank">
+                                        <i class="fa-solid fa-square-envelope"></i>
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <nav>
+                        <div class="logo"><span>K</span>ARTHIK</div>
+                        <ul id="sidemenu">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#Education">Education</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#Certificates">Certificates</a></li>
+                            <li><a href="#Contactme">Contact Me</a></li>
+                            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    </nav>
+                </section>
+            </div>
+            <!---------------------------------about-------------------------------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="images/karthik_2.jpg">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p>I'm Vadladi Karthik, a B.Tech student majoring in AI and Data Science at KIET, and I'm
+                                also a tech lead. I'm very excited to be a tech lead, where I can grasp many
+                                opportunities. Driven by a fascination with AIDS, machine learning, and data analysis.
+                                I'm actively involved in projects and clubs on campus, aiming to stay ahead in tech
+                                advancements. Beyond my studies, I'm a creative thinker who loves coding, and
+                                photography, and I'm eager to contribute to the evolving world of AI and open to
+                                opportunities for personal growth.</p>
+                            <!-- tab titles-->
+                            <div class="tab-titles">
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            </div>
+                            <!-- tab contents-->
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2016-2020</span><br>High School (10th Grade)<br>DR.KKR GOWTHAM SCHOOL
+                                        GUDIWADA<br>10th WITH 100%</li>
+                                    <li><span>2020-2021</span><br>Intermediate (12th Grade)<br>M.P.R.M.SRI VISWA SANTHI
+                                        JUNIOR COLLEGE<br>INTER WITH 86.5%</li>
+                                    <li><span>2022-current</span><br>Bachelor Of Technology (B.Tech) <br>KIET GROUP OF
+                                        INSTITUTIONS</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Python</span><br>Multi-Domain Proficiency</li>
+                                    <li><span>HTML & CSS</span><br>Front-End Foundation</li>
+                                    <li><span>Teamwork</span><br>Effective Group Collaboration</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>TEAM LEAD</span><br>TECHNICAL LEAD</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------Education--------------- -->
+            <div id="Education">
+                <div class="container">
+                    <h1 class="sub-title">Education</h1>
+                    <div class="Education">
+                        <div>
+                            <div class="progress-line"><span class="html"></span></div>
+                            <h2>2016-2020</h2>
+                            <p>High School (10th Grade)<br>DR.KKR GOWTHAM SCHOOL GUDIWADA<br>10th WITH 100%</p>
+                        </div>
+                        <div>
+                            <h2>2020-2021</h2>
+                            <p>Intermediate (12th Grade)<br>M.P.R.M.SRI VISWA SANTHI JUNIOR COLLEGE<br>INTER WITH 86.5%
+                            </p>
+                        </div>
+                        <div>
+                            <h2>2022-current</h2>
+                            <p>Bachelor Of Technology (B.Tech) <br>KIET GROUP OF INSTITUTIONS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------Skills--------------- -->
+            <div id="Skills">
+                <div class="container">
+                    <h1 class="sub-title">My Skills</h1>
+                    <div class="Skills-list">
+                        <div>
+                            <i class="fa-brands fa-python"></i>
+                            <div class="progress-line"><span class="html"></span></div>
+                            <h2>PYTHON</h2>
+                            <p>Proficient in Python, a versatile and widely-used programming language, with a focus on
+                                data analysis, machine learning, and web development.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>HTML & CSS</h2>
+                            <p>Proficient in HTML and CSS, the fundamental building blocks of web development, with the
+                                ability to create structured, semantically meaningful web content and enhance it with
+                                visually appealing and responsive design.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-people-group"></i>
+                            <h2>TEAM MANAGEMENT</h2>
+                            <p>Skilled in effective team management, I know team management, where I can improve my
+                                speaking skills and leadership skills more efficiently, and I'm so much glad that I'm a
+                                lead.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -----------------certificates------------- -->
+            <div id="Certificates">
+                <div class="container">
+                    <h1 class="sub-title">My Certificates</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/CERTIFICATE_1.png">
+                            <div class="layer">
+                                <h3>Certificate 1<br>Basics of Python<br>EDYST</h3>
+                                <a href="#certificate1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/CERTIFICATE_2.png">
+                            <div class="layer">
+                                <h3>Certificate 2<br>Introduction to Python<br>EDYST</h3>
+                                <a href="#certificate2"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/CERTIFICATE_3.jpg">
+                            <div class="layer">
+                                <h3>Certificate 3<br>Python for Machine Learning<br>GREAT LEARNING</h3>
+                                <a href="#certificate3"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/CERTIFICATE_4.jpg">
+                            <div class="layer">
+                                <h3>Certificate 4<br>HTML, Python, Flask<br>UDEMY</h3>
+                                <a href="#certificate4"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/certificate_5.jpg">
+                            <div class="layer">
+                                <h3>Certificate 5<br>HTML, CSS<br>UDEMY</h3>
+                                <a href="#certificate5"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Contactme" id="Contactme">
+                <h2>Contact Me</h2>
+                <form action="mailto:karthikvadladi09@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <nav class="social-media">
+                <div class="nav-social">
+                    <a href="https://github.com/Karthikceo" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/ka_rt_hii._22?igshid=MTN0MnF0NXB0MHUzNg==" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                        target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:karthikvadladi09@gmail.com" target="_blank">
+                        <i class="fa-solid fa-square-envelope"></i>
+                    </a>
+                </div>
+            </nav>
+            <div>
+                <li><a href="#header">Home</a></li>
+            </div>
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
